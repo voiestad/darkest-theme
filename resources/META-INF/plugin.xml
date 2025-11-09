@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>darkest-theme</id>
+    <version>1.0.0</version>
+
+    <name>Darkest Theme</name>
+    <category>UI</category>
+
+    <vendor url="https://voiestad.no">Vebjørn Øiestad</vendor>
+
+    <idea-version since-build="242"/>
+
+    <description>Very very dark theme. Based on Darcula.
+        Editor colors inspired by Visual Studio Code default dark theme.</description>
+
+    <change-notes>Initial version</change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="theme" path="/theme/theme.theme.json"/>
+    </extensions>
+</idea-plugin>
